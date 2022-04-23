@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Questions
-  You can find my GitHub profile at github.com/${data.username}
+  You can find my GitHub profile at www.github.com/${data.username}
   If you have any additional questions, you can reach me at ${data.email}
 `;
 }
