@@ -1,9 +1,9 @@
 # asd
 
-  
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description
-  asd
+  asdas
 
   ## Table of Contents
   - [Installation](#installation)
@@ -14,21 +14,22 @@
   - [Questions](#questions)
 
   ## Installation
-  asd
+  d
 
   ## Usage 
   asd
 
   ## License
-  None
+  This application is covered under the Mozilla Public License. Learn more about Mozilla Public License 
+  [here.](https://opensource.org/licenses/MPL-2.0)
 
   ## Contributing
   asd
 
   ## Tests
-  a
+  asd
 
   ## Questions
-  You can find my GitHub profile at www.github.com/masd
+  You can find my GitHub profile at www.github.com/asmd
   
-If you have any additional questions, you can reach me at asd
+If you have any additional questions, you can reach me at asmkdafldkm

@@ -18,13 +18,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license==='MIT') {
-    return '[here:](https://opensource.org/licenses/MIT)'
+    return '[here.](https://opensource.org/licenses/MIT)'
   } else if (license==='Mozilla Public License') {
-    return '[here:](https://opensource.org/licenses/MPL-2.0)'
+    return '[here.](https://opensource.org/licenses/MPL-2.0)'
   } else if (license==='Apache') {
-    return '[here:](https://opensource.org/licenses/Apache-2.0)'
+    return '[here.](https://opensource.org/licenses/Apache-2.0)'
   } else if (license==='GNU GPLv3') {
-    return '[here:](https://www.gnu.org/licenses/gpl-3.0)'
+    return '[here.](https://www.gnu.org/licenses/gpl-3.0)'
   } else {
     return ""
   }
@@ -34,13 +34,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license==='MIT') {
-    return `Learn more about MIT `
+    return 'This application is covered under the MIT license. Learn more about MIT '
   } else if (license==='Mozilla Public License') {
-    return `Learn more about Mozilla Public License `
+    return 'This application is covered under the Mozilla Public License. Learn more about Mozilla Public License '
   } else if (license==='Apache') {
-    return `Learn more about Apache `
+    return 'This application is covered under the Apache license. Learn more about Apache '
   } else if (license==='GNU GPLv3') {
-    return `Learn more about GNU GPLv3 `
+    return 'This application is covered under the GNU GPLv3 license. Learn more about GNU GPLv3 '
   } else {
     return ""
   }
@@ -70,7 +70,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${renderLicenseSection(data.licence)}
+  ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
 
   ## Contributing
