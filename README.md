@@ -8,4 +8,4 @@ created in the main directory of this application.
 ## Demo
 
 https://github.com/mrxanthic/README-Maker/blob/main/Develop/README%20Maker%20Demo.mp4
-https://github.com/mrxanthic/README-Maker/blob/main/Develop/README%20Maker%20Demo%20GIF.gif
+![image](./Develop/README%Maker%Demo%GIF.gif)
