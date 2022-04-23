@@ -39,7 +39,7 @@ const questions = () => {
             type: 'checkbox',
             name: 'license',
             message: 'Select which license the application is covered under.',
-            choices: ['', '', '', '', '', '', '']
+            choices: ['MIT', 'Mozilla Public License', 'Apache', 'GNU GPLv3', 'None']
         },
         {
             type: "input",
@@ -54,10 +54,16 @@ const questions = () => {
     ])}; 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) throw new Error(err);
+
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
+
