@@ -37,7 +37,7 @@ const questions = () => {
             message: 'Enter test instructions.'
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'Select which license the application is covered under.',
             choices: ['MIT', 'Mozilla Public License', 'Apache', 'GNU GPLv3', 'None']

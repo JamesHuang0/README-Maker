@@ -20,9 +20,9 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [License](#license)
   - [Questions](#questions)
 
   ## Installation
@@ -31,18 +31,18 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usage}
 
+  ## License
+  ${data.license}
+
   ## Contributing
   ${data.contribution}
 
   ## Tests
   ${data.test}
 
-  ## License
-  ${data.license}
-
   ## Questions
   You can find my GitHub profile at www.github.com/${data.username}
-  If you have any additional questions, you can reach me at ${data.email}
+  \nIf you have any additional questions, you can reach me at ${data.email}
 `;
 }
 

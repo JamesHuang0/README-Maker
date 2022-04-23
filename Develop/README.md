@@ -15,7 +15,7 @@
   asd
 
   ## Usage 
-  as
+  asd
 
   ## Contributing
   asd
@@ -24,8 +24,8 @@
   asd
 
   ## License
-  MIT
+  MIT,Mozilla Public License,Apache,GNU GPLv3,None
 
   ## Questions
-  You can find my GitHub profile at www.github.com/mrxanthic
-  If you have any additional questions, you can reach me at mrxa@g.com
+  You can find my GitHub profile at www.github.com/mrxant
+  If you have any additional questions, you can reach me at asdasd.com
