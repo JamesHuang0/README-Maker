@@ -7,6 +7,6 @@ created in the main directory of this application.
 
 ## Demo
 
-https://github.com/mrxanthic/README-Maker/blob/main/Develop/README%20Maker%20Demo.mp4
+[Link](https://github.com/mrxanthic/README-Maker/blob/main/Develop/README%20Maker%20Demo.mp4) to the demo video.
 
 ![GIF](https://github.com/mrxanthic/README-Maker/blob/main/Develop/README%20Maker%20Demo%20GIF.gif)
